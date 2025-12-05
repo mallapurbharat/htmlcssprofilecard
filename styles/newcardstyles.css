@@ -1,0 +1,62 @@
+body {
+  margin:20px
+}
+.profile-card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  font-family: "Inter", sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: fill;
+  margin-bottom: 16px;
+}
+
+.profile-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.profile-title {
+  margin-top: 4px;
+  margin-bottom: 16px;
+  color: #777;
+  font-size: 0.95rem;
+}
+
+.profile-desc {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}
+/* .contact-button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+} */
+
+.contact-button {
+  margin-top: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+  color: #0f1419;
+  border: 1.5px solid #cfd9de;
+  border-radius: 20px;
+  cursor: pointer;  
+}
