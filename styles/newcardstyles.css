@@ -15,7 +15,7 @@ body {
 .profile-img {
   width: 140px;
   height: 140px;
-  border-radius: 50%;
+  border-radius: 20px;
   object-fit: fill;
   margin-bottom: 16px;
 }
